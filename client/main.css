@@ -1,0 +1,236 @@
+/*
+ *
+ * Base
+ *
+ */
+
+body {
+    background-color: #eee;
+}
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.ibox {
+    clear: both;
+    margin-top: 0;
+    padding: 0;
+}
+
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 4px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    height: 50px;
+    border-bottom: 1px solid #E7EAEC;
+}
+
+
+
+
+/*
+ *
+ * Common
+ *
+ */
+
+.chatIcon {
+    margin: 15px auto;
+    height: 128px;
+    width: 128px;
+    background: transparent url("images/chat-icon.png") center no-repeat;
+    background-size: cover;
+}
+
+.profileIcon {
+    margin: 15px auto;
+    height: 128px;
+    width: 128px;
+    background: transparent url("images/profile-icon.png") center no-repeat;
+    background-size: cover;
+}
+
+.formCrossLink {
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+
+
+
+
+/*
+ *
+ * Sign in
+ *
+ */
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 5px;
+}
+
+
+
+
+
+/*
+ *
+ * Sign up
+ *
+ */
+
+.form-signup {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signup input {
+    margin: 5px auto;
+}
+
+.form-signup button {
+    margin-top: 5px;
+}
+
+.form-userprofile {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-userprofile input {
+    margin: 5px auto;
+}
+
+.form-userprofile button {
+    margin-top: 5px;
+}
+
+
+
+
+
+/*
+ *
+ * Chat
+ *
+ */
+
+.message-input {
+    height: 90px !important;
+    padding: 16px 16px 16px 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-radius: 0;
+}
+
+.chat-view {
+    z-index: 20012;
+}
+
+.chat-view .ibox-content {
+    padding: 0;
+}
+
+.chat-message {
+    padding: 10px 0px;
+}
+
+.chat-message pre {
+    text-align: left;
+}
+
+.message {
+    background-color: #fff;
+    border: 1px solid #e7eaec;
+    text-align: left;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.message-author {
+    font-weight: bold;
+}
+
+.chat-discussion .chat-message.right .message-date {
+    float: left;
+}
+
+.chat-discussion .chat-message.left .message-date {
+    float: right;
+}
+
+.chat-discussion .chat-message.left .message {
+    text-align: left;
+    margin-left: 55px;
+}
+
+.chat-discussion .chat-message.right .message {
+    text-align: right;
+    margin-right: 55px;
+}
+
+.message-date {
+    font-size: 10px;
+    color: #888;
+}
+
+.message-content {
+    display: block;
+}
+
+.chat-discussion {
+    width: 100%;
+    background: #eee;
+    padding: 15px;
+    overflow-y: auto;
+    height: calc(100vh - 140px);
+}
+
+.chat-message-form .form-group {
+    margin-bottom: 0;
+}
+
+.chat-message-form textarea {
+    resize: none;
+}
